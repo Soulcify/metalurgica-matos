@@ -1,203 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Metalúrgica Matos | Estruturas Metálicas</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metalúrgica Matos</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Cabeçalho / Navbar -->
-  <header class="header">
-    <div class="container header-content">
-      <div class="logo">
-        <!-- Substituir por <img src="assets/img/logo.png"...> quando tiver a logo -->
-        <span>Metalúrgica <strong>Matos</strong></span>
+
+<header>
+  <div class="container header-content">
+    <span class="logo">Metalúrgica <strong>Matos</strong></span>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- INÍCIO -->
+<section id="inicio" class="hero">
+  <img src="assets/img/Frente da Metalurgica.jpg" alt="Frente da Metalúrgica Matos" class="hero-img">
+  <div class="hero-text">
+    <h1>Estruturas Metálicas com Qualidade</h1>
+    <p>Portões, coberturas, estruturas metálicas e projetos sob medida.</p>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+  <div class="container">
+    <h2>Sobre a Metalúrgica Matos</h2>
+    <p>
+      A Metalúrgica Matos atua na fabricação e instalação de estruturas metálicas,
+      portões, coberturas e soluções personalizadas, prezando pela qualidade,
+      segurança e compromisso com o cliente.
+    </p>
+    <img src="assets/img/Metalica Matos.jpg" alt="Estrutura metálica" class="section-img">
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="section dark">
+  <div class="container">
+    <h2>Serviços</h2>
+
+    <div class="cards">
+      <div class="card">
+        <img src="assets/img/Portão Matos.jpg" alt="Portões metálicos">
+        <h3>Portões Metálicos</h3>
       </div>
 
-      <button class="menu-toggle" aria-label="Abrir menu">
-        ☰
-      </button>
-
-      <nav class="nav">
-        <ul>
-          <li><a href="#home">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#portfolio">Portfólio</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section id="home" class="hero">
-    <div class="container hero-content">
-      <div class="hero-text">
-        <h1>Estruturas metálicas com qualidade e confiança.</h1>
-        <p>
-          A Metalúrgica Matos oferece soluções sob medida em estruturas metálicas,
-          coberturas, portões e manutenção, atendendo comércios, residências e pequenas indústrias.
-        </p>
-        <a href="#contato" class="btn-primary">Solicitar orçamento</a>
-      </div>
-      <div class="hero-image">
-        <!-- Quando tiver imagem, colocar aqui -->
-        <div class="hero-placeholder">Sua imagem aqui</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sobre -->
-  <section id="sobre" class="section">
-    <div class="container">
-      <h2>Sobre a Metalúrgica Matos</h2>
-      <p>
-        A Metalúrgica Matos é uma empresa de pequeno porte especializada em fabricação,
-        montagem e manutenção de estruturas metálicas. Atendemos projetos personalizados,
-        sempre buscando unir segurança, durabilidade e bom acabamento.
-      </p>
-      <p>
-        Nosso foco é atender de forma ágil e transparente comércios, residências,
-        condomínios e pequenas indústrias, oferecendo soluções sob medida
-        para cada necessidade, desde coberturas metálicas até portões, mezaninos
-        e estruturas para galpões.
-      </p>
-    </div>
-  </section>
-
-  <!-- Serviços -->
-  <section id="servicos" class="section section-gray">
-    <div class="container">
-      <h2>Serviços</h2>
-
-      <div class="cards">
-        <article class="card">
-          <h3>Estruturas metálicas</h3>
-          <p>
-            Fabricação e montagem de estruturas metálicas para galpões, depósitos,
-            comércios e áreas industriais.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Coberturas e telhados</h3>
-          <p>
-            Coberturas metálicas sob medida para garagens, áreas externas,
-            entradas de lojas e outros espaços.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Portões e grades</h3>
-          <p>
-            Produção de portões deslizantes, basculantes, portas de enrolar
-            e grades de proteção com acabamento de qualidade.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Manutenção e reforço</h3>
-          <p>
-            Reforço estrutural, soldas, ajustes e manutenção em estruturas
-            e coberturas metálicas já existentes.
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfólio -->
-  <section id="portfolio" class="section">
-    <div class="container">
-      <h2>Portfólio</h2>
-      <p class="section-subtitle">
-        Alguns exemplos de serviços que a Metalúrgica Matos já executou.
-      </p>
-
-      <div class="grid-portfolio">
-        <div class="portfolio-item">
-          <div class="portfolio-thumb">Imagem 1</div>
-          <span>Estrutura metálica para galpão</span>
-        </div>
-        <div class="portfolio-item">
-          <div class="portfolio-thumb">Imagem 2</div>
-          <span>Cobertura metálica residencial</span>
-        </div>
-        <div class="portfolio-item">
-          <div class="portfolio-thumb">Imagem 3</div>
-          <span>Portão deslizante sob medida</span>
-        </div>
-        <div class="portfolio-item">
-          <div class="portfolio-thumb">Imagem 4</div>
-          <span>Estrutura para área comercial</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contato -->
-  <section id="contato" class="section section-gray">
-    <div class="container contato-grid">
-      <div>
-        <h2>Fale com a gente</h2>
-        <p>
-          Preencha o formulário ao lado ou entre em contato pelos canais abaixo
-          para solicitar um orçamento sem compromisso.
-        </p>
-        <ul class="contato-info">
-          <li><strong>Telefone/WhatsApp:</strong> (xx) xxxxx-xxxx</li>
-          <li><strong>E-mail:</strong> contato@metalurgicatos.com.br</li>
-          <li><strong>Endereço:</strong> Rua Exemplo, 123 – Bairro – Cidade/UF</li>
-        </ul>
+      <div class="card">
+        <img src="assets/img/Estrutura Matos.jpg" alt="Estruturas metálicas">
+        <h3>Estruturas Metálicas</h3>
       </div>
 
-      <div>
-        <!-- Exemplo com formsubmit.co (não precisa backend) -->
-        <form class="contato-form"
-              action="https://formsubmit.co/SEU-EMAIL-AQUI"
-              method="POST">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_template" value="table">
-
-          <div class="form-group">
-            <label for="nome">Nome*</label>
-            <input type="text" id="nome" name="nome" required>
-          </div>
-
-          <div class="form-group">
-            <label for="email">E-mail*</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-
-          <div class="form-group">
-            <label for="telefone">Telefone/WhatsApp</label>
-            <input type="text" id="telefone" name="telefone">
-          </div>
-
-          <div class="form-group">
-            <label for="mensagem">Mensagem / Tipo de serviço</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-          </div>
-
-          <button type="submit" class="btn-primary">Enviar mensagem</button>
-        </form>
+      <div class="card">
+        <img src="assets/img/Telhado Matos.jpg" alt="Coberturas metálicas">
+        <h3>Coberturas</h3>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Rodapé -->
-  <footer class="footer">
-    <div class="container footer-content">
-      <p>© <span id="ano"></span> Metalúrgica Matos. Todos os direitos reservados.</p>
-      <p class="footer-dev">Site desenvolvido como projeto acadêmico em Análise e Desenvolvimento de Sistemas.</p>
+<!-- PORTFÓLIO -->
+<section id="portfolio" class="section">
+  <div class="container">
+    <h2>Portfólio</h2>
+
+    <div class="gallery">
+      <img src="assets/img/Mais Portoes Matos.jpg" alt="Projeto de portões">
+      <img src="assets/img/Trabalhador Soldando.jpg" alt="Trabalho de solda">
+      <img src="assets/img/Portão Matos.jpg" alt="Portão instalado">
+      <img src="assets/img/Estrutura Matos.jpg" alt="Estrutura em execução">
     </div>
-  </footer>
+  </div>
+</section>
 
-  <script src="assets/js/main.js"></script>
+<!-- CONTATO -->
+<section id="contato" class="section dark">
+  <div class="container">
+    <h2>Contato</h2>
+    <p>Entre em contato para solicitar um orçamento.</p>
+
+    <p><strong>Telefone / WhatsApp:</strong> (xx) xxxxx-xxxx</p>
+    <p><strong>Endereço:</strong> Santarém – PA</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Metalúrgica Matos</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
